@@ -57,13 +57,23 @@ public class Demo {
         return demoService.findAllUser();
     }
 
+    // GET - http://localhost:8081/1
     @GetMapping("/{id}")
     public User getById(@PathVariable int id){
         return demoService.findUserById(id);
     }
 
+    // PUT - ttp://localhost:8081/1
     @PutMapping("/{id}")
     public User updateData(@PathVariable int id, @RequestBody User user){
         return demoService.updateUser(id,user);
     }
+
+    // DELETE METHOD - http://localhost:8081/1
+    @DeleteMapping("/{id}")
+    public String deleteUser(@PathVariable int id) {
+        demoService.deleteUser(id);
+        return "User with ID " + id + " has been deleted.";
+    }
+
 }

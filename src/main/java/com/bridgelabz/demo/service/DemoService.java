@@ -33,4 +33,8 @@ public class DemoService {
         userById.setSalary(user.getSalary());
         return userRepository.save(userById);
     }
+    public void deleteUser(int id) {
+        User user = findUserById(id); // check if user exists
+        userRepository.delete(user);
+    }
 }

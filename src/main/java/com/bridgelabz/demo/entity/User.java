@@ -2,7 +2,7 @@ package com.bridgelabz.demo.entity;
 
 import jakarta.persistence.*;
 
-@Entity // helps in object creation
+@Entity // helps in table creation
 @Table(name = "User_Data") // used for giving the table name
     public class User {
         @Id // for creating the primary key

@@ -1,14 +1,11 @@
-package com.bridgelabz.demo;
+package com.gevernova.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringExampleApplication {
-
+public class GreetingApplication {
 	public static void main(String[] args) {
-
-		SpringApplication.run(SpringExampleApplication.class, args);
+		SpringApplication.run(GreetingApplication.class, args);
 	}
-
 }

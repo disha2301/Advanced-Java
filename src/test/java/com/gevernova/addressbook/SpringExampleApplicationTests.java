@@ -1,4 +1,4 @@
-package com.gevernova.userpractice;
+package com.gevernova.addressbook;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -3,12 +3,14 @@ package com.gevernova.employee.controller;
 import com.gevernova.employee.dto.EmployeeRequestDTO;
 import com.gevernova.employee.dto.EmployeeResponseDTO;
 import com.gevernova.employee.service.EmployeeService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/employees")
+@Slf4j
 public class EmployeeController {
     private EmployeeService service;
 

@@ -1,7 +1,7 @@
-package com.bridgelabz.demo.service;
+package com.gevernova.userpractice.service;
 
-import com.bridgelabz.demo.entity.User;
-import com.bridgelabz.demo.repository.UserRepository;
+import com.gevernova.userpractice.entity.User;
+import com.gevernova.userpractice.repository.UserRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.bridgelabz.demo.entity;
+package com.gevernova.userpractice.entity;
 
 import jakarta.persistence.*;
 

@@ -1,7 +1,7 @@
-package com.bridgelabz.demo.controller;
+package com.gevernova.userpractice.controller;
 
-import com.bridgelabz.demo.entity.User;
-import com.bridgelabz.demo.service.DemoService;
+import com.gevernova.userpractice.entity.User;
+import com.gevernova.userpractice.service.DemoService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

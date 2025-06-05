@@ -1,10 +1,10 @@
 package com.gevernova.employee.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.*;
+
+import java.time.LocalDate;
+import java.util.List;
 
 @Entity
 @Data
@@ -19,5 +19,12 @@ public class Employee {
     private String name;
     private String department;
     private Double salary;
+    private String password;
+    private String gender;
+    private LocalDate dob;
+    private LocalDate joinDate;
+
+    @ElementCollection // to persist List<String> in JPA
+    private List<String> skills;
 
 }

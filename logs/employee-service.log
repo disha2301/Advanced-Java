@@ -1,22 +1,22 @@
-2025-06-04T22:05:58.007+05:30  INFO 26568 --- [main] c.g.employee.EmployeePayrollApplication  : Starting EmployeePayrollApplication using Java 17.0.15 with PID 26568 (C:\Users\disha\IdeaProjects\demo\demo\target\classes started by disha in C:\Users\disha\IdeaProjects\demo\demo)
-2025-06-04T22:05:58.013+05:30 DEBUG 26568 --- [main] c.g.employee.EmployeePayrollApplication  : Running with Spring Boot v3.5.0, Spring v6.2.7
-2025-06-04T22:05:58.014+05:30  INFO 26568 --- [main] c.g.employee.EmployeePayrollApplication  : No active profile set, falling back to 1 default profile: "default"
-2025-06-04T22:05:59.103+05:30  INFO 26568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-06-04T22:05:59.205+05:30  INFO 26568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 1 JPA repository interface.
-2025-06-04T22:06:00.025+05:30  INFO 26568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-06-04T22:06:00.053+05:30  INFO 26568 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-06-04T22:06:00.053+05:30  INFO 26568 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
-2025-06-04T22:06:00.132+05:30  INFO 26568 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-06-04T22:06:00.133+05:30  INFO 26568 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2018 ms
-2025-06-04T22:06:00.454+05:30  INFO 26568 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-06-04T22:06:00.635+05:30  INFO 26568 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
-2025-06-04T22:06:00.730+05:30  INFO 26568 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-06-04T22:06:01.145+05:30  INFO 26568 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-06-04T22:06:01.229+05:30  INFO 26568 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-06-04T22:06:01.532+05:30  INFO 26568 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:employeedb user=SA
-2025-06-04T22:06:01.536+05:30  INFO 26568 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-06-04T22:06:01.572+05:30  WARN 26568 --- [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-06-04T22:06:01.616+05:30  INFO 26568 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-06-05T11:13:03.882+05:30  INFO 15592 --- [main] c.g.employee.EmployeePayrollApplication  : Starting EmployeePayrollApplication using Java 17.0.15 with PID 15592 (C:\Users\disha\IdeaProjects\demo\demo\target\classes started by disha in C:\Users\disha\IdeaProjects\demo\demo)
+2025-06-05T11:13:03.897+05:30 DEBUG 15592 --- [main] c.g.employee.EmployeePayrollApplication  : Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-05T11:13:03.899+05:30  INFO 15592 --- [main] c.g.employee.EmployeePayrollApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-06-05T11:13:05.334+05:30  INFO 15592 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-05T11:13:05.453+05:30  INFO 15592 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98 ms. Found 1 JPA repository interface.
+2025-06-05T11:13:06.378+05:30  INFO 15592 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-05T11:13:06.405+05:30  INFO 15592 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-05T11:13:06.406+05:30  INFO 15592 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-05T11:13:06.512+05:30  INFO 15592 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-05T11:13:06.513+05:30  INFO 15592 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2476 ms
+2025-06-05T11:13:06.879+05:30  INFO 15592 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-05T11:13:07.025+05:30  INFO 15592 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-06-05T11:13:07.097+05:30  INFO 15592 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-06-05T11:13:07.654+05:30  INFO 15592 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-05T11:13:07.712+05:30  INFO 15592 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-05T11:13:07.991+05:30  INFO 15592 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:employeedb user=SA
+2025-06-05T11:13:07.994+05:30  INFO 15592 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-05T11:13:08.049+05:30  WARN 15592 --- [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-06-05T11:13:08.101+05:30  INFO 15592 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
@@ -24,18 +24,168 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-06-04T22:06:02.900+05:30  INFO 26568 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-06-04T22:06:02.969+05:30  INFO 26568 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-06-04T22:06:03.455+05:30  WARN 26568 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-06-04T22:06:03.966+05:30  INFO 26568 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:employeedb'
-2025-06-04T22:06:04.133+05:30  INFO 26568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-06-04T22:06:04.149+05:30  INFO 26568 --- [main] c.g.employee.EmployeePayrollApplication  : Started EmployeePayrollApplication in 7.111 seconds (process running for 7.642)
-2025-06-04T22:06:12.102+05:30  INFO 26568 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-06-04T22:06:12.103+05:30  INFO 26568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-06-04T22:06:12.104+05:30  INFO 26568 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-06-04T22:06:12.134+05:30  WARN 26568 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
-2025-06-04T22:07:29.475+05:30  INFO 26568 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-06-04T22:07:29.551+05:30  INFO 26568 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-06-04T22:07:29.554+05:30  INFO 26568 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-06-04T22:07:29.557+05:30  INFO 26568 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-06-04T22:07:29.561+05:30  INFO 26568 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-06-05T11:13:09.522+05:30  INFO 15592 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-05T11:13:09.614+05:30  INFO 15592 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-05T11:13:10.044+05:30  WARN 15592 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-05T11:13:10.623+05:30  INFO 15592 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:employeedb'
+2025-06-05T11:13:10.840+05:30  INFO 15592 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-05T11:13:10.864+05:30  INFO 15592 --- [main] c.g.employee.EmployeePayrollApplication  : Started EmployeePayrollApplication in 7.981 seconds (process running for 8.762)
+2025-06-05T11:13:47.115+05:30  INFO 15592 --- [http-nio-8080-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-05T11:13:47.115+05:30  INFO 15592 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-05T11:13:47.117+05:30  INFO 15592 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-06-05T11:13:47.140+05:30  WARN 15592 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-06-05T11:14:25.416+05:30 DEBUG 15592 --- [http-nio-8080-exec-3] c.g.employee.service.EmployeeService     : Saved employee entity: Employee(id=1, name=Disha Yadav, department=Engineering, salary=5000.0)
+2025-06-05T11:14:38.252+05:30  WARN 15592 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.gevernova.employee.dto.EmployeeResponseDTO> com.gevernova.employee.controller.EmployeeController.createEmployee(com.gevernova.employee.dto.EmployeeRequestDTO) with 2 errors: [Field error in object 'employeeRequestDTO' on field 'name': rejected value [null]; codes [NotBlank.employeeRequestDTO.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeeRequestDTO.name,name]; arguments []; default message [name]]; default message [Name is required]] [Field error in object 'employeeRequestDTO' on field 'salary': rejected value [500.0]; codes [Min.employeeRequestDTO.salary,Min.salary,Min.java.lang.Double,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeeRequestDTO.salary,salary]; arguments []; default message [salary],1000]; default message [Salary must be atleast 1000]] ]
+2025-06-05T11:21:21.533+05:30 ERROR 15592 --- [http-nio-8080-exec-9] c.g.employee.service.EmployeeService     : Employee not found with ID: 2
+2025-06-05T11:21:21.535+05:30 ERROR 15592 --- [http-nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Employee not found with id: 2] with root cause
+
+java.lang.RuntimeException: Employee not found with id: 2
+	at com.gevernova.employee.service.EmployeeService.lambda$getEmployeeId$0(EmployeeService.java:62) ~[classes/:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at com.gevernova.employee.service.EmployeeService.getEmployeeId(EmployeeService.java:60) ~[classes/:na]
+	at com.gevernova.employee.controller.EmployeeController.getEmployeeById(EmployeeController.java:29) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.7.jar:6.2.7]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.7.jar:6.2.7]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.7.jar:6.2.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.7.jar:6.2.7]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.7.jar:6.2.7]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.7.jar:6.2.7]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.7.jar:6.2.7]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.7.jar:6.2.7]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.7.jar:6.2.7]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.7.jar:6.2.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.41.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.7.jar:6.2.7]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.41.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.41.jar:10.1.41]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.7.jar:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.7.jar:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.7.jar:6.2.7]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.7.jar:6.2.7]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-06-05T11:29:18.522+05:30  WARN 15592 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'Di': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')]
+2025-06-05T11:29:43.592+05:30  WARN 15592 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'Di': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')]
+2025-06-05T11:29:44.955+05:30  WARN 15592 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'Di': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')]
+2025-06-05T11:29:53.365+05:30 DEBUG 15592 --- [http-nio-8080-exec-3] c.g.employee.service.EmployeeService     : Saved employee entity: Employee(id=2, name=Di, department=Engineering, salary=50000.0)
+2025-06-05T11:30:00.477+05:30 DEBUG 15592 --- [http-nio-8080-exec-8] c.g.employee.service.EmployeeService     : Saved employee entity: Employee(id=3, name=i, department=Engineering, salary=50000.0)
+2025-06-05T12:30:06.872+05:30  WARN 15592 --- [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m27s916ms214µs900ns).
+2025-06-05T12:57:19.429+05:30  INFO 15592 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-05T12:57:19.614+05:30  INFO 15592 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-05T12:57:19.628+05:30  INFO 15592 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-05T12:57:19.640+05:30  INFO 15592 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-05T12:57:19.647+05:30  INFO 15592 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-06-05T12:57:39.203+05:30  INFO 17536 --- [main] c.g.employee.EmployeePayrollApplication  : Starting EmployeePayrollApplication using Java 17.0.15 with PID 17536 (C:\Users\disha\IdeaProjects\demo\demo\target\classes started by disha in C:\Users\disha\IdeaProjects\demo\demo)
+2025-06-05T12:57:39.208+05:30 DEBUG 17536 --- [main] c.g.employee.EmployeePayrollApplication  : Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-05T12:57:39.210+05:30  INFO 17536 --- [main] c.g.employee.EmployeePayrollApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-06-05T12:57:41.050+05:30  INFO 17536 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-05T12:57:41.198+05:30  INFO 17536 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 122 ms. Found 1 JPA repository interface.
+2025-06-05T12:57:42.406+05:30  INFO 17536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-05T12:57:42.442+05:30  INFO 17536 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-05T12:57:42.443+05:30  INFO 17536 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-05T12:57:42.552+05:30  INFO 17536 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-05T12:57:42.553+05:30  INFO 17536 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3197 ms
+2025-06-05T12:57:43.001+05:30  INFO 17536 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-05T12:57:43.276+05:30  INFO 17536 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-06-05T12:57:43.391+05:30  INFO 17536 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-06-05T12:57:44.005+05:30  INFO 17536 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-05T12:57:44.059+05:30  INFO 17536 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-05T12:57:44.365+05:30  INFO 17536 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:employeedb user=SA
+2025-06-05T12:57:44.369+05:30  INFO 17536 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-05T12:57:44.410+05:30  WARN 17536 --- [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-06-05T12:57:44.454+05:30  INFO 17536 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-05T12:57:47.011+05:30  INFO 17536 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-05T12:57:47.207+05:30  INFO 17536 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-05T12:57:48.101+05:30  WARN 17536 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-05T12:57:49.028+05:30  INFO 17536 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:employeedb'
+2025-06-05T12:57:49.267+05:30  INFO 17536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-05T12:57:49.299+05:30  INFO 17536 --- [main] c.g.employee.EmployeePayrollApplication  : Started EmployeePayrollApplication in 11.662 seconds (process running for 12.595)
+2025-06-05T13:46:05.070+05:30  WARN 17536 --- [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47m50s589ms233µs400ns).
+2025-06-05T13:53:00.025+05:30  INFO 17536 --- [http-nio-8080-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-05T13:53:00.027+05:30  INFO 17536 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-05T13:53:00.031+05:30  INFO 17536 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-06-05T13:53:00.758+05:30  WARN 17536 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.gevernova.employee.dto.EmployeeResponseDTO> com.gevernova.employee.controller.EmployeeController.createEmployee(com.gevernova.employee.dto.EmployeeRequestDTO) with 4 errors: [Field error in object 'employeeRequestDTO' on field 'name': rejected value [i]; codes [Pattern.employeeRequestDTO.name,Pattern.name,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeeRequestDTO.name,name]; arguments []; default message [name],[Ljakarta.validation.constraints.Pattern$Flag;@43eecc0a,^[A-Z][a-z,A-Z]{2,}$]; default message [Enter valid name]] [Field error in object 'employeeRequestDTO' on field 'skills': rejected value [null]; codes [NotEmpty.employeeRequestDTO.skills,NotEmpty.skills,NotEmpty.java.util.List,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeeRequestDTO.skills,skills]; arguments []; default message [skills]]; default message [must not be empty]] [Field error in object 'employeeRequestDTO' on field 'password': rejected value [null]; codes [NotBlank.employeeRequestDTO.password,NotBlank.password,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeeRequestDTO.password,password]; arguments []; default message [password]]; default message [must not be blank]] [Field error in object 'employeeRequestDTO' on field 'gender': rejected value [null]; codes [NotBlank.employeeRequestDTO.gender,NotBlank.gender,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeeRequestDTO.gender,gender]; arguments []; default message [gender]]; default message [must not be blank]] ]
+2025-06-05T14:01:29.046+05:30  INFO 17536 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-05T14:01:29.275+05:30  INFO 17536 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-05T14:01:29.282+05:30  INFO 17536 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-05T14:01:29.285+05:30  INFO 17536 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-05T14:01:29.289+05:30  INFO 17536 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-06-05T14:01:41.823+05:30  INFO 1088 --- [main] c.g.employee.EmployeePayrollApplication  : Starting EmployeePayrollApplication using Java 17.0.15 with PID 1088 (C:\Users\disha\IdeaProjects\demo\demo\target\classes started by disha in C:\Users\disha\IdeaProjects\demo\demo)
+2025-06-05T14:01:41.831+05:30 DEBUG 1088 --- [main] c.g.employee.EmployeePayrollApplication  : Running with Spring Boot v3.5.0, Spring v6.2.7
+2025-06-05T14:01:41.834+05:30  INFO 1088 --- [main] c.g.employee.EmployeePayrollApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-06-05T14:01:43.543+05:30  INFO 1088 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-05T14:01:43.677+05:30  INFO 1088 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 114 ms. Found 1 JPA repository interface.
+2025-06-05T14:01:45.076+05:30  INFO 1088 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-06-05T14:01:45.126+05:30  INFO 1088 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-06-05T14:01:45.126+05:30  INFO 1088 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-06-05T14:01:45.226+05:30  INFO 1088 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-06-05T14:01:45.226+05:30  INFO 1088 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3249 ms
+2025-06-05T14:01:45.651+05:30  INFO 1088 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-05T14:01:45.774+05:30  INFO 1088 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-06-05T14:01:45.874+05:30  INFO 1088 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-06-05T14:01:46.572+05:30  INFO 1088 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-05T14:01:46.654+05:30  INFO 1088 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-06-05T14:01:47.060+05:30  INFO 1088 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:employeedb user=SA
+2025-06-05T14:01:47.065+05:30  INFO 1088 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-06-05T14:01:47.122+05:30  WARN 1088 --- [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-06-05T14:01:47.173+05:30  INFO 1088 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-05T14:01:48.592+05:30  INFO 1088 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-05T14:01:48.685+05:30  INFO 1088 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-05T14:01:49.222+05:30  WARN 1088 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-06-05T14:01:49.746+05:30  INFO 1088 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:employeedb'
+2025-06-05T14:01:49.900+05:30  INFO 1088 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-06-05T14:01:49.919+05:30  INFO 1088 --- [main] c.g.employee.EmployeePayrollApplication  : Started EmployeePayrollApplication in 9.468 seconds (process running for 10.294)
+2025-06-05T14:02:27.768+05:30  INFO 1088 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-05T14:02:27.769+05:30  INFO 1088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-06-05T14:02:27.771+05:30  INFO 1088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-06-05T14:02:44.923+05:30 ERROR 1088 --- [http-nio-8080-exec-4] c.g.employee.service.EmployeeService     : Employee not found with ID: 1
+2025-06-05T14:06:58.872+05:30  INFO 1088 --- [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-05T14:06:59.475+05:30  INFO 1088 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-06-05T14:06:59.517+05:30  INFO 1088 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-05T14:06:59.525+05:30  INFO 1088 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-06-05T14:06:59.531+05:30  INFO 1088 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
